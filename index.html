@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Web</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('fondo.jpg'); /* imagen de fondo */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .contenedor {
+      max-width: 1000px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #header {
+      display: flex;
+      align-items: center;
+      background-color: #003366;
+      padding: 10px 20px;
+      color: white;
+    }
+
+    #header img {
+      height: 50px;
+      margin-right: 20px;
+    }
+
+    #body {
+      flex: 1;
+      padding: 20px;
+    }
+
+    #footer {
+      background-color: #001a33;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    a {
+      color: #003366;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #0099cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <div id="header">
+      <img src="logo.png" alt="Logo del sitio">
+      <h1>Mi Página Personal</h1>
+    </div>
+
+    <div id="body">
+      <p>Haz clic en el enlace para ver el video en streaming:</p>
+      <a href="https://www.youtube.com/watch?v=ScMzIvxBSi4" target="_blank">Ver video en YouTube</a>
+    </div>
+
+    <div id="footer">
+      <p>Curso: Conceptualización de servicios en la nube</p>
+      <p>Nombre: Ricardo Coronado Ramírez</p>
+      <p>Código: 209641289</p>
+      <p>Correo: rich_enturion@hotmail.com</p>
+    </div>
+  </div>
+</body>
+</html>
